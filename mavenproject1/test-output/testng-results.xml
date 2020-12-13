@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-30T18:05:23 PDT" name="suite1" finished-at="2020-07-30T18:05:23 PDT" duration-ms="49">
+    <groups>
+    </groups>
+    <test started-at="2020-07-30T18:05:23 PDT" name="Test" finished-at="2020-07-30T18:05:23 PDT" duration-ms="49">
+      <class name="maven.package1.LoginTest">
+        <test-method signature="createUser(java.lang.String, java.lang.String, int)[pri:0, instance:maven.package1.LoginTest@7692d9cc]" started-at="2020-07-30T18:05:23 PDT" name="createUser" data-provider="getData" finished-at="2020-07-30T18:05:23 PDT" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String, java.lang.String, int)[pri:0, instance:maven.package1.LoginTest@7692d9cc]" started-at="2020-07-30T18:05:23 PDT" name="createUser" data-provider="getData" finished-at="2020-07-30T18:05:23 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteUser(java.lang.String, int)[pri:0, instance:maven.package1.LoginTest@7692d9cc]" started-at="2020-07-30T18:05:23 PDT" name="deleteUser" data-provider="getData" finished-at="2020-07-30T18:05:23 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[delete-username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="deleteUser(java.lang.String, int)[pri:0, instance:maven.package1.LoginTest@7692d9cc]" started-at="2020-07-30T18:05:23 PDT" name="deleteUser" data-provider="getData" finished-at="2020-07-30T18:05:23 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[delete-username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- maven.package1.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- suite1 -->
+  <suite started-at="2020-07-30T18:05:24 PDT" name="finalsuite" finished-at="2020-07-30T18:05:24 PDT" duration-ms="0">
+    <groups>
+    </groups>
+    <test started-at="2020-07-30T18:05:24 PDT" name="Test" finished-at="2020-07-30T18:05:24 PDT" duration-ms="0">
+    </test> <!-- Test -->
+  </suite> <!-- finalsuite -->
+  <suite started-at="2020-07-30T18:05:23 PDT" name="Suite2" finished-at="2020-07-30T18:05:23 PDT" duration-ms="13">
+    <groups>
+    </groups>
+    <test started-at="2020-07-30T18:05:23 PDT" name="Test" finished-at="2020-07-30T18:05:23 PDT" duration-ms="13">
+      <class name="maven.package2.SearchPhone">
+        <test-method signature="phoneSearchTest(org.testng.ITestContext)[pri:0, instance:maven.package2.SearchPhone@3c72f59f]" started-at="2020-07-30T18:05:23 PDT" name="phoneSearchTest" finished-at="2020-07-30T18:05:23 PDT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55b699ef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneSearchTest -->
+        <test-method signature="select(org.testng.ITestContext)[pri:0, instance:maven.package2.SearchPhone@3c72f59f]" started-at="2020-07-30T18:05:23 PDT" name="select" finished-at="2020-07-30T18:05:23 PDT" depends-on-methods="maven.package2.SearchPhone.phoneSearchTest" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55b699ef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select -->
+        <test-method signature="checkout()[pri:0, instance:maven.package2.SearchPhone@3c72f59f]" started-at="2020-07-30T18:05:23 PDT" name="checkout" finished-at="2020-07-30T18:05:23 PDT" depends-on-methods="maven.package2.SearchPhone.select, maven.package2.SearchPhone.phoneSearchTest" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+      </class> <!-- maven.package2.SearchPhone -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite2 -->
+</testng-results>
