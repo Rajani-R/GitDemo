@@ -11,6 +11,9 @@ public class LoginTest {
 		System.out.println(br);
 		System.out.println(un);
 		System.out.println(age);
+System.out.println("Git test1");
+System.out.println("Git test2");
+           
 		
 	}
 	@Test(dataProviderClass=Dataprovider.class,dataProvider="getData")
