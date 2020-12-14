@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pkg1.SearchPhone">
+      <class name="maven.package1.LoginTest">
         <methods>
-          <include name="select"/>
-          <include name="checkout"/>
-          <include name="phoneSearchTest" invocation-numbers="0"/>
+          <include name="deleteUser"/>
         </methods>
-      </class> <!-- pkg1.SearchPhone -->
+      </class> <!-- maven.package1.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

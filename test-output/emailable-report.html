@@ -8,13 +8,24 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">42</td><td></td><td></td></tr>
+<tr><th colspan="7">suite1</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">49</td><td></td><td></td></tr>
+<tr><th colspan="7">finalsuite</th></tr>
+<tr class="stripe"><td><a href="#t1">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite2</th></tr>
+<tr><td><a href="#t2">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">7</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">62</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">pkg1.SearchPhone</td><td><a href="#m0">checkout</a></td><td rowspan="1">1596152303621</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m1">phoneSearchTest</a></td><td rowspan="1">1596152303605</td><td rowspan="1">10</td></tr><tr class="passedeven"><td><a href="#m2">select</a></td><td rowspan="1">1596152303619</td><td rowspan="1">1</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">maven.package1.LoginTest</td><td><a href="#m0">createUser</a></td><td rowspan="2">1596157523895</td><td rowspan="2">1</td></tr><tr class="passedeven"><td><a href="#m1">createUser</a></td></tr><tr class="passedeven"><td><a href="#m2">deleteUser</a></td><td rowspan="2">1596157523900</td><td rowspan="2">1</td></tr><tr class="passedeven"><td><a href="#m3">deleteUser</a></td></tr></tbody>
+<tbody><tr><th colspan="4">finalsuite</th></tr></tbody><tbody id="t1"><tr><th colspan="4" class="invisible"/></tr></tbody>
+<tbody><tr><th colspan="4">Suite2</th></tr></tbody><tbody id="t2"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">maven.package2.SearchPhone</td><td><a href="#m4">checkout</a></td><td rowspan="1">1596157523987</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m5">phoneSearchTest</a></td><td rowspan="1">1596157523978</td><td rowspan="1">5</td></tr><tr class="passedeven"><td><a href="#m6">select</a></td><td rowspan="1">1596157523985</td><td rowspan="1">1</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">pkg1.SearchPhone#checkout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">pkg1.SearchPhone#phoneSearchTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@654f0d9c</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">pkg1.SearchPhone#select</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@654f0d9c</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">maven.package1.LoginTest#createUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>firefox</td><td>username2</td><td>23</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">maven.package1.LoginTest#createUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>chrome</td><td>username1</td><td>34</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">maven.package1.LoginTest#deleteUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>delete-username2</td><td>23</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">maven.package1.LoginTest#deleteUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>delete-username1</td><td>34</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h2>Test</h2><h3 id="m4">maven.package2.SearchPhone#checkout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">maven.package2.SearchPhone#phoneSearchTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@55b699ef</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">maven.package2.SearchPhone#select</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@55b699ef</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

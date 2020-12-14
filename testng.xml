@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="finalsuite">
+
+<listeners>
+<listener class-name="package3.ListenerClass">
+</listener>
+</listeners>
+
+<suite-files>
+
+<suite-file path="suite1.xml"/>
+<suite-file path="suite2.xml"/>
+
+</suite-files>
+
+
+  <test thread-count="5" name="Test">
+    <classes>
+    <!--   <class name="maven.package2.SearchPhone"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- maven.package2.suite2 -->
